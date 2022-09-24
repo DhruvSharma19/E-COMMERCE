@@ -543,20 +543,28 @@ footer {
 @media screen and (max-width:400px) {
     nav {
         padding: 20px;
+        font-size: 12px;
     }
-
+    .name{
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    .offer{
+        font-size: 15px;
+    }
     .search {
         display: none;
     }
-
+    
     .navbar-bottom {
         flex-wrap: wrap;
+    
     }
 
     .menuitem {
         margin: 20px;
         font-weight: 700;
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .slider {
